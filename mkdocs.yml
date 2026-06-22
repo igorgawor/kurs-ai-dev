@@ -1,4 +1,3 @@
-yaml
 site_name: Kurs – Jak nie dać się zwieść AI
 theme:
   name: material
@@ -10,4 +9,3 @@ nav:
   - Moduł 1: modul1.md
   - Moduł 2: modul2.md
   - Ćwiczenia: modul3.md
-bash
