@@ -12,7 +12,7 @@
 2.  Teksty AI są wygładzone do niepokojącego stopnia. Każdy akapit ma strukturę. 
 3.  Brzmi to profesjonalnie, ale naturalny tekst techniczny tak nie wygląda.
 
-**Przykład:**
+    Przykład listy kroków, która nie ma sensu:
 
 > „W celu zapewnienia poprawnego działania systemu należy upewnić się, że wszystkie wymagane zależności zostały zainstalowane zgodnie z dokumentacją producenta."
 
