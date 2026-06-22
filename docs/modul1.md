@@ -18,7 +18,10 @@ Model generuje treści nieprawdziwe z pełną pewnością siebie. Nie ma tu złe
 
 Typowe przyczyny: temat był słabo reprezentowany w danych treningowych, dane treningowe zawierały błędy, albo pytanie było zbyt szczegółowe – model nie ma odpowiedzi, ale ma wzorzec odpowiedzi i go wypełnia.
 
-Przykład: zapytaj model o domyślny timeout wersji biblioteki wydanej po jego dacie granicznej. Bardzo często poda liczbę – pewnie, szczegółowo, bez zastrzeżeń.
+Przykład: zapytaj model o domyślny timeout wersji biblioteki wydanej po jego dacie granicznej. Bardzo często poda liczbę – pewnie, szczegółowo, bez zastrzeżeń. 
+Żeby zobrazować Wam to na konkretach, w praktyce Copilot potrafi palnąć taką głupotę, że restart produkcyjnego serwera to norma. 
+Zaufasz mu w ciemno, wkleisz wygenerowaną konfigurację do terminala, a potem w panice szukasz błędu, bo wszystko leży. 
+Traktujcie te podpowiedzi jak rady od znajomego, który zawsze pewnym głosem mówi rzeczy, o których nie ma pojęcia.
 
 ---
 
