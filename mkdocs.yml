@@ -1,0 +1,13 @@
+yaml
+site_name: Kurs – Jak nie dać się zwieść AI
+theme:
+  name: material
+  palette:
+    primary: teal
+  logo: assets/logo.png
+nav:
+  - Start: index.md
+  - Moduł 1: modul1.md
+  - Moduł 2: modul2.md
+  - Ćwiczenia: modul3.md
+bash
