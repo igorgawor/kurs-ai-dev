@@ -38,7 +38,9 @@ Ostatni akapit zawiera błąd. Serwer `flask run` jest jednowątkowy i jednoproc
 
 ---
 
-[KOMENTARZ PROWADZĄCEGO]
+**Komentarz prowadzącego:**
+
+Tutaj AI poleciało w kulki. Serwer `flask run` to zabawka do developmentu – Flask sam krzyczy w dokumentacji, żeby nie używać go na produkcji, bo jest jednowątkowy. A ta magiczna liczba „~50 sesji”? Kompletnie z kapelusza. Model widział, że gdzieś wspomina się o Gunicornie, więc próbował zgrabnie połączyć fakty, ale wyszedł mu kit. Jeśli widzisz w dokumentacji „bezpieczny do X użytkowników” bez żadnego źródła – to czerwona lampka.
 
 ---
 
@@ -66,7 +68,9 @@ Dwa błędy. Po pierwsze: JWT **nie są szyfrowane** – są podpisane (Base64 +
 
 ---
 
-[KOMENTARZ PROWADZĄCEGO]
+**Komentarz prowadzącego:**
+
+Ten fragment to petarda – błąd bezpieczeństwa gotowy. JWT nie jest szyfrowany, tylko podpisany. Payload to Base64, który dekoduje się online w 3 sekundy. A token przechwycony? Działa jak żywy – atakujący użyje go, dopóki nie wygaśnie. AI napisało to tak gładko, że aż strach. Morał: jak widzisz zdanie „X jest bezpieczne, ponieważ…”, odpal mózg i dokumentację, nie wiarę w AI.
 
 ---
 
