@@ -59,7 +59,9 @@ Model nauczył się, że dobra dokumentacja zawiera odsyłacze. Więc je generuj
 
 Adres wygląda wiarygodnie. Sekcja może nie istnieć. Model nie sprawdzał – wygenerował wzorzec „odsyłacz do dokumentacji".
 
-## Podsumowanie { #podsumowanie }
+<a id="podsumowanie"></a>
+## Podsumowanie
+
 Wszystkie cztery sygnały należy traktować łącznie – im więcej ich występuje, tym większe prawdopodobieństwo, że tekst został wygenerowany przez AI. Pamiętaj: weryfikacja faktów to Twój obowiązek.
 ---
 
